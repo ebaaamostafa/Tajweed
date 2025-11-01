@@ -2,7 +2,7 @@
 
 A minimal static site with short Arabic summaries of Tajweed rules.
 
-Follow this link to view: []
+Follow this link to view: https://ebaaamostafa.github.io/Tajweed/
 
 or open `index.html` in your browser to view the content
 
@@ -12,7 +12,7 @@ or open `index.html` in your browser to view the content
 
 موقع بسيط يحتوي على شروحات قصيرة لأحكام التجويد باللغة العربية
 
-لعرض المحتوى اضغط الرابط: []
+لعرض المحتوى اضغط الرابط: https://ebaaamostafa.github.io/Tajweed/
 
 ## License
 
