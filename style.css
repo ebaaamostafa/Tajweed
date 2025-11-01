@@ -1,0 +1,105 @@
+/* --- Page Layout --- */
+body {
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+  font-family: 'Noto Naskh Arabic', 'Amiri', serif;
+  background: #ffffff;
+  color: #222;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* --- Header & Footer --- */
+header, footer {
+  width: 100%;
+  text-align: center;
+  color: white;
+  background: linear-gradient(to right, #136a8a, #267871);
+  padding: 2vh 0;
+  border: none;
+  font-size: clamp(1rem, 2vw, 1.4rem);
+  letter-spacing: 0.5px;
+  line-height: 1.6;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* --- Tree Structure --- */
+ul.tree {
+  list-style: none;
+  padding: 0 2vw;
+  margin: 3vh auto;
+  max-width: 900px;
+}
+
+.tree-item {
+  margin: 0.7em 0;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* --- Clickable Titles --- */
+.tree-title {
+  display: inline-flex;
+  align-items: center;
+  font-weight: bold;
+  background: rgba(19, 106, 138, 0.15);
+  padding: 0.7em 1em;
+  border-radius: 0.6em;
+  font-size: clamp(0.9rem, 1.8vw, 1.2rem);
+  color: #0d3b46;
+  transition: background 0.3s ease, transform 0.2s ease, color 0.3s ease;
+}
+
+.tree-title:hover {
+  background: rgba(19, 106, 138, 0.35);
+  color: #093239;
+  transform: scale(1.02);
+}
+
+/* --- Arrow Indicators --- */
+.tree-title::before {
+  content: '◀';
+  display: inline-block;
+  transform: rotate(0deg);
+  margin-left: 8px;
+  transition: transform 0.3s ease;
+  color: #0d3b46;
+}
+
+.tree-item.expanded > .tree-title::before {
+  transform: rotate(-90deg);
+}
+
+/* --- Expandable Info --- */
+.tree-info {
+  display: none;
+  margin-top: 0.4em;
+  margin-right: 1.8em;
+  background: rgba(19, 106, 138, 0.08);
+  border-right: 3px solid #136a8a;
+  border-radius: 0.4em;
+  padding: 0.7em 1em;
+  font-size: clamp(0.85rem, 1.6vw, 1.05rem);
+  line-height: 1.7;
+  animation: fadeIn 0.4s ease;
+}
+
+.tree-item.expanded > .tree-info {
+  display: block;
+}
+
+/* --- Footer --- */
+footer {
+  margin-top: auto;
+  background: linear-gradient(to right, #0f4c5c, #136a8a);
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* --- Smooth Appearance --- */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-5px); }
+  to { opacity: 1; transform: translateY(0); }
+}

@@ -1,0 +1,75 @@
+{
+  "tajweed": [
+    {
+      "title": "ملخص علم التجويد",
+      "explanation": "ملخص شامل لموضوعات علم التجويد.",
+      "examples": "",
+      "children": [
+        {
+          "title": "مدخل إلى علم التجويد",
+          "explanation": "يتناول تعريف التجويد وأهميته وفضل تعلمه.",
+          "examples": "",
+          "children": [
+            { "title": "تعريف التجويد", "explanation": "تحسين قراءة القرآن", "examples": "" },
+            { "title": "حكم تعلم التجويد", "explanation": "", "examples": "" },
+            { "title": "هدف علم التجويد", "explanation": "", "examples": "" }
+          ]
+        },
+        {
+          "title": "فضل قراءة القرآن",
+          "children": [
+            { "title": "فضل التلاوة", "explanation": "", "examples": "" },
+            { "title": "الأجر والثواب", "explanation": "", "examples": "" }
+          ]
+        },
+        {
+          "title": "علم التجويد",
+          "children": [
+            { "title": "أصل كلمة التجويد", "explanation": "", "examples": "" },
+            { "title": "مقاصده", "explanation": "", "examples": "" },
+            { "title": "فوائده", "explanation": "", "examples": "" }
+          ]
+        },
+        {
+          "title": "مخارج و صفات الحروف",
+          "children": [
+            { "title": "مخرج الحرف", "explanation": "", "examples": "" },
+            { "title": "ألقاب الحروف", "explanation": "", "examples": "" },
+            { "title": "المخارج الرئيسية", "explanation": "", "examples": "" },
+            {
+              "title": "صفات الحروف",
+              "children": [
+                { "title": "الصفات المتضادة", "explanation": "", "examples": "" },
+                { "title": "صفات لا ضد لها", "explanation": "", "examples": "" }
+              ]
+            },
+            { "title": "جدول المخارج", "explanation": "", "examples": "" },
+            { "title": "حروف الاستعلاء", "explanation": "", "examples": "" }
+          ]
+        },
+        {
+          "title": "أحكام النون الساكنة و التنوين",
+          "children": [
+            { "title": "الإظهار", "explanation": "", "examples": "" },
+            { "title": "الإدغام", "explanation": "", "examples": "" },
+            { "title": "الإقلاب", "explanation": "", "examples": "" },
+            { "title": "الإخفاء", "explanation": "", "examples": "" },
+            { "title": "الغنة", "explanation": "", "examples": "" }
+          ]
+        },
+        {
+          "title": "أحكام المد في التجويد",
+          "children": [
+            { "title": "المد الطبيعي", "explanation": "", "examples": "" },
+            { "title": "مد البدل", "explanation": "", "examples": "" },
+            { "title": "المد الواجب المتصل", "explanation": "", "examples": "" },
+            { "title": "المد الجائز المنفصل", "explanation": "", "examples": "" },
+            { "title": "المد اللازم", "explanation": "", "examples": "" },
+            { "title": "المد العارض للسكون", "explanation": "", "examples": "" },
+            { "title": "مد الصلة", "explanation": "", "examples": "" }
+          ]
+        }
+      ]
+    }
+  ]
+}
