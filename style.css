@@ -11,6 +11,18 @@ body {
   flex-direction: column;
 }
 
+.tree-title,
+.tree-info,
+.tree-item {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+}
+
+.tree-title:focus-visible {
+  outline: 3px solid rgba(19, 106, 138, 0.35);
+  outline-offset: 3px;
+}
+
 /* --- Header & Footer --- */
 header, footer {
   width: 100%;
