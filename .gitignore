@@ -1,0 +1,61 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Logs
+logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv/
+*.pyc
+
+# Environment variables
+.env
+.env.*
+
+# Build / distribution
+dist/
+build/
+
+# Coverage
+.coverage
+htmlcov/
+
+# Misc
+*.tmp
+*.swp
+*.bak
+
+# Windows image file cache
+Thumbs.db
+
+# JetBrains
+out/
+
+# Ignore local config files
+.local
+
+# Ignore node lock files if you don't want to commit them (optional)
+# package-lock.json
+# yarn.lock
